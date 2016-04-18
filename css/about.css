@@ -1,0 +1,115 @@
+body{
+    background: #f0ede6;
+    margin: 0;
+    padding: 0;
+    font-family: "Arial";
+}
+#d_main{
+    width: 100%;
+}
+#d_main > div{
+    width: 100%;
+    overflow: hidden;
+}
+#d_main > div .d_primary_coverage{
+    width: 85%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+
+}
+.d_logo_nav{
+    background: #35342f;
+}
+.d_sdm_logo{
+    float: left;
+    margin: 0 0 0 30px;
+}
+.d_sdm_nav{
+    float: right;
+}
+.d_sdm_logo a{
+    display: inline-block;
+    text-indent: 99999px;
+    background: url("../images/a_innerlogo.png") no-repeat;
+    width: 217px;
+    height: 50px;
+    margin: 24px 0;
+    background-size: cover;
+
+}
+.d_sdm_nav ul li{
+    float: left;
+    list-style: none;
+    margin: 25px 12px;
+    color: #666666;
+}
+.d_sdm_nav ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: transparent;
+    text-shadow: 0 0 0px #eee;
+}
+.d_main_content{
+    overflow: hidden;
+    width: 85% !important;
+    background: #c3a866;
+    margin: 45px auto 90px auto;
+}
+.d_main_content_left,.d_main_content_right{
+    float: left;
+}
+.d_main_content_left{
+    padding: 60px 55px 60px 50px;
+    width: 745px;
+    background: #fff;
+}
+.d_main_content_left h1{
+    font-size: 20px;
+    color: #1f1c16;
+}
+.d_main_content_left .d_about_banner{
+    width: 745px ;
+    height: 360px;
+    background: url("../images/about_banner.jpg") no-repeat;
+    background-size: cover;
+    background-position: center -120px;
+}
+.d_main_content_left .d_blog_banner{
+    width: 745px ;
+    height: 360px;
+    background: url("../images/blog_banner.jpg") no-repeat;
+    background-size: cover;
+}
+.d_main_content_left span{
+        color: #c3a866;
+        font-size: 14px;
+    font-weight: bold;
+}
+.d_main_content_left p{
+    font-size: 14px;
+    color: #42413d;
+    margin: 22px 0;
+    line-height: 25px;
+}
+.d_main_content_right {
+    width: 25.8%;
+}
+.d_main_content_right h1{
+    color: #fff;
+    font-size: 18px;
+    margin: 60px 0 38px 28px;
+}
+.d_main_content_right ul li{
+    list-style: none;
+
+}
+.d_main_content_right ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 18px 0 18px 18px;
+    width: 225px;
+    border-bottom: 1px solid #d7c392;
+    background: url("../images/about_list_style.png")  no-repeat left;
+}

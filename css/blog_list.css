@@ -1,0 +1,108 @@
+body{
+    background: #f0ede6;
+    margin: 0;
+    padding: 0;
+    font-family: "Arial";
+}
+#d_main{
+    width: 100%;
+}
+#d_main > div{
+    width: 100%;
+    overflow: hidden;
+}
+#d_main > div .d_primary_coverage{
+    width: 85%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+
+}
+.d_logo_nav{
+    background: #35342f;
+}
+.d_sdm_logo{
+    float: left;
+    margin: 0 0 0 30px;
+}
+.d_sdm_nav{
+    float: right;
+}
+.d_sdm_logo a{
+    display: inline-block;
+    text-indent: 99999px;
+    background: url("../images/a_innerlogo.png") no-repeat;
+    width: 217px;
+    height: 50px;
+    margin: 24px 0;
+    background-size: cover;
+
+}
+.d_sdm_nav ul li{
+    float: left;
+    list-style: none;
+    margin: 25px 12px;
+    color: #666666;
+}
+.d_sdm_nav ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: transparent;
+    text-shadow: 0 0 0px #eee;
+}
+.d_main_content{
+    overflow: hidden;
+    width: 65% !important;
+    background: #fff;
+    margin: 45px auto 90px auto;
+}
+.d_blog_list{
+    margin-bottom: 130px;
+}
+.d_blog_list li{
+        border-bottom: 1px solid #cdc8bc;
+    list-style: none;
+    overflow: hidden;
+    margin-right: 30px;
+}
+.d_blog_list li>div{
+    float: left;
+    margin: 30px 10px;
+}
+.d_blog_list li>div:first-child>a {
+    display: inline-block;
+    width: 135px;
+    height: 135px;
+    background: url("../images/blog_banner.jpg") no-repeat;
+    background-position: -60px center;
+    background-size: cover;
+    margin:0 0 0 20px;
+}
+.d_blog_list li>div:last-child{
+    width: 72%;
+}
+.d_blog_list li>div h3{
+    color: #1f1c16;
+    font-weight: bold;
+    font-size: 18px;
+}
+.d_blog_list li>div p{
+    color: #42413d;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+}
+.d_blog_list li>div p a{
+    color: #42413d;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+@media all and (min-width:376px){
+    .d_blog_list li>div:last-child {
+        width: 65%;
+    }
+    .d_blog_list li>div h3{
+        margin: 0;
+    }
+}

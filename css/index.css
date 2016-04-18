@@ -1,0 +1,397 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Arial";
+
+}
+#d_main{
+    width: 100%;
+}
+#d_main > div{
+    width: 100%;
+    overflow: hidden;
+}
+#d_main > div .d_primary_coverage{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+
+}
+.d_logo_nav{
+    background: #35342f;
+}
+.d_sdm_logo{
+    float: left;
+}
+.d_sdm_nav{
+    float: right;
+}
+.d_sdm_logo a{
+    display: inline-block;
+    text-indent: 99999px;
+    background: url("../images/a_innerlogo.png") no-repeat;
+    width: 172px;
+    height: 41px;
+    margin: 24px 0;
+
+}
+.d_sdm_nav ul li{
+    float: left;
+    list-style: none;
+    margin: 15px 12px;
+    color: #666666;
+}
+.d_sdm_nav ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: transparent;
+    text-shadow: 0 0 0px #eee;
+}
+.d_sdm_nav ul li a.d_nav_button_sign{
+    background: #ecac0d;
+    color: #fff;
+    font-weight: bold;
+    display: inline-block;
+    padding: 9px 25px;
+    border-radius: 5px;
+    margin-top: -5px;
+}
+.d_banner_sheet{
+    background: url("../images/banner.jpg") no-repeat;
+    background-position: center -85px;
+}
+.d_banner_sheet div .d_main_sheet{
+    float: right;
+    background: url("../images/from_top.png") no-repeat top #35342f;
+    background-size: 380px 63px;
+    margin-top: 65px;
+    background-position: -1px -8px;
+    border: 0;
+    border-radius: 10px;
+    margin-bottom: 130px;
+}
+.d_banner_sheet div .d_main_sheet form{
+    margin-top: 65px;
+
+}
+.d_banner_sheet div.d_main_sheet ul li label{
+    margin-top: 3px;
+}
+.d_banner_sheet div.d_main_sheet ul li div,.d_banner_sheet div.d_main_sheet ul li label{
+    float: left;
+}
+.d_banner_sheet div .d_main_sheet ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 99px;
+    font-size: 14px;
+    padding: 0 20px;
+}
+.d_banner_sheet div.d_main_sheet ul li div span.hp_to{
+    display: inline-block;
+    margin: 0 5px;
+}
+.d_banner_sheet div .d_main_sheet ul li{
+    overflow: hidden;
+    color: #fff;
+    margin: 20px 0;
+}
+.d_banner_sheet div.d_main_sheet ul li label{
+    width: 105px;
+    text-align: right;
+    margin-right: 5px;
+    font-size: 14px;
+}
+.d_banner_sheet div.d_main_sheet ul li div select{
+    width: 222px;
+    padding: 4px 0;
+    border: 0;
+    border-radius: 5px;
+}
+.d_banner_sheet div.d_main_sheet ul li div select.hp_sel02{
+    width: 96px;
+}
+.d_banner_sheet div.d_main_sheet ul li.hp_btnfindmatch{
+    text-align: center;
+    margin: 38px 0;
+}
+.d_banner_sheet div.d_main_sheet ul li.hp_btnfindmatch button{
+    color: #fff;
+    background: #e6a810;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 12px 30px;
+}
+.d_download_now{
+    background: #40403d;
+}
+.d_download_now .d_mobile_phone{
+    margin-left: 100px;
+}
+.d_download_now .d_mobile_phone,.d_mobile_phone_right{
+    margin-top: 85px;
+    float: left;
+}
+.d_mobile_phone_right{
+    margin-left: 50px;
+}
+.d_mobile_phone_right p{
+    margin: 135px 0 0 0px;
+}
+.d_mobile_phone_right a{
+    display: inline-block;
+    margin: 60px 0;
+}
+.d_mobile_phone_right a:last-child{
+    margin-left: 24px;
+}
+.d_mobile_phone_right p{
+    color: #ffffff;
+    font-size: 34px;
+}
+.d_download_now .d_mobile_phone img{
+    position: relative;
+    top: 10px;
+}
+.d_main_daddy_baby{
+    background: #636361;
+}
+.d_main_daddy_baby h1{
+    font-size: 28px;
+    text-align: center;
+    color: #fff;
+    font-weight: normal;
+    margin: 0 auto;
+}
+.d_main_daddy_baby h1:first-child{
+    margin-top: 85px;
+}
+.d_main_daddy_baby ul{
+    overflow: hidden;
+    margin: 35px 0 85px 0;
+}
+.d_main_daddy_baby ul li{
+    float: left;
+    list-style: none;
+}
+.d_main_daddy_baby ul li a{
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    width: 151px;
+    height: 151px;
+    border-radius: 151px;
+    margin: 29px auto 10px auto;
+}
+.d_main_daddy_baby ul li>img{
+    height: 356px;
+}
+.d_main_daddy_baby ul li a img{
+    width: 151px;
+    height: 151px;
+    border-radius: 151px;
+}
+.d_main_daddy_baby ul li span{
+    display: inherit;
+    font-weight: bold;
+    font-size: 24px;
+    color: #f3b417;
+    text-align: center;
+    margin-bottom: 38px;
+}
+.d_main_daddy_baby ul li p{
+    font-size: 16px;
+    color: #fff;
+    width: 485px;
+}
+.footer{
+    background: #333331;
+}
+
+.footer ul li{
+    float: left;
+    list-style: none;
+}
+.footer ul+p{
+    font-size: 12px;
+    color: #8a8989;
+    text-align: center;
+}
+.footer ul{
+    overflow: hidden;
+    margin: 80px auto 50px auto;
+    padding: 0;
+}
+.footer ul li.d_company{
+    margin-right: 135px;
+
+}
+.footer ul li.d_features{
+    margin-right: 90px;
+}
+.footer ul li.d_dating{
+    margin-right: 85px;
+}
+.d_split_line div{
+    margin-top: 20px;
+    border-left: 1px solid #484846;
+    width: 1px;
+    height: 250px;
+}
+.footer ul li:last-child{
+
+    margin-left: 75px;
+}
+.footer ul li p{
+    font-size: 18px;
+    color: #a2a1a1;
+}
+.footer ul li a{
+    display:block;
+    color: #a2a1a1;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 8px 0;
+}
+.footer ul li a:hover{
+    color: #f3b417;
+}
+.footer ul li.follow_us>a{
+    display: inline-block;
+    background: url("../images/icon_blog_socials.png") no-repeat 11px 6px #666;
+    width: 33px;
+    height: 33px;
+    float: left;
+    margin-right: 10px;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+.footer ul li.follow_us>a:hover{
+    background-color: #f3b417;
+}
+.footer ul li.follow_us div.d_footer_appstore_google{
+    display: block;
+    width: 142px;
+    margin-top: 85px;
+}
+.footer ul li.follow_us div.d_footer_appstore_google a{
+    display: inline-block;
+    margin-top: 15px;
+}
+.footer ul li.follow_us>a.hp_twitter{background-position:9px -21px;}
+.footer ul li.follow_us>a.hp_pinterest{background-position:9px -49px;}
+.footer ul li.follow_us>a.hp_googleplus{background-position:8px -81px;}
+@media all and (max-width:1025px){
+    #d_main > div .d_primary_coverage{
+        width: 100%;
+    }
+    .d_sdm_logo{
+        margin: 0 auto;
+        float: none;
+        width: 372px;
+    }
+    .d_sdm_nav{
+        width: 80%;
+        margin: 0 auto;
+        float: none;
+    }
+    .d_sdm_nav ul li a{
+        font-size: 28px;
+    }
+    .d_sdm_logo a{
+    width: 372px;
+    height: 81px;
+    margin: 24px 0;
+    background-size: cover;
+    }
+    .d_banner_sheet div .d_main_sheet ul{
+        font-size: 28px;
+        padding: 0 40px;
+    }
+    .d_banner_sheet div .d_main_sheet {
+        float: right;
+        background: url("../images/from_top.png") no-repeat top #35342f;
+        background-size:  690px 83px;
+        margin-top: 65px;
+        background-position: -1px -8px;
+        border: 0;
+        border-radius: 25px;
+        margin-bottom: 130px;
+        margin-right: 15%;
+    }
+    .d_banner_sheet div.d_main_sheet ul li label {
+        width: 215px;
+        text-align: right;
+        margin-right: 5px;
+        font-size: 28px;
+    }
+    .d_banner_sheet div.d_main_sheet ul li div select.hp_sel02 {
+        width: 166px;
+
+    }
+    .d_banner_sheet div.d_main_sheet ul li div select {
+        width: 380px;
+        padding: 15px 0;
+        border: 0;
+        border-radius: 5px;
+    }
+    .d_banner_sheet {
+        background: url("../images/banner.jpg") no-repeat;
+        background-size: cover;
+    }
+    .d_banner_sheet div.d_main_sheet ul li.hp_btnfindmatch button {
+        color: #fff;
+        background: #e6a810;
+        border: 0;
+        border-radius: 15px;
+        font-size: 40px;
+        padding: 32px 170px;
+    }
+    .d_main_daddy_baby ul li>img{
+        display: none;
+    }
+    .d_main_daddy_baby ul li{
+
+    }
+    .d_main_daddy_baby ul li p {
+        font-size: 20px;
+        color: #fff;
+        width: 100%;
+    }
+    .d_main_daddy_baby h1 {
+        font-size: 58px;
+    }
+    .footer ul li.d_dating {
+        margin-right: 35px;
+    }
+    .footer ul li:last-child {
+        margin-left: 35px;
+    }
+    .d_main_daddy_baby ul li a,.d_main_daddy_baby ul li a img{
+        width: 300px;
+        height: 300px;
+    }
+    .footer ul li a{
+        font-size: 18px;
+    }
+    .footer ul li p {
+        font-size: 28px;
+    }
+    .d_split_line{
+        display: none;
+    }
+    .follow_us{
+        margin-left: 130px !important;
+    }
+    .footer ul{
+        margin-left:200px;
+    }
+}
